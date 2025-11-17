@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docker:crear": "docker build -t francosassarini/laboratorio-6:imagenlab5 . && docker push francosassarini/laboratorio-6:imagenlab5"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -29,3 +30,4 @@
     "vite": "^7.1.7"
   }
 }
+
